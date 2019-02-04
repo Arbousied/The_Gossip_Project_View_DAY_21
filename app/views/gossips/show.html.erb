@@ -7,6 +7,6 @@
     <h5 class="card-title">Titre : <%= @gossip.title %></h5>
     <p class="card-text">Le super ragot : "<%= @gossip.content %>"</p>
     <p>Date de création : <%= @gossip.created_at %></p>
-    <%= link_to "Page Auteur", user_path(@gossip.user.id), :class => "btn-primary btn" %>
+    <%= link_to "Page Auteur", user_path(@gossip.user.id), :class => "btn-info btn" %>
   </div>
 </div>
