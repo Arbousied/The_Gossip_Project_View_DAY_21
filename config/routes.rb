@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-  get 'static_pages/team', to: 'static_pages#team'
-  get 'static_pages/contact', to: 'static_pages#contact'
+  get 'team', to: 'static_pages#team'
+  get 'contact', to: 'static_pages#contact'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  get 'home', to:'static_pages#index'
 end
