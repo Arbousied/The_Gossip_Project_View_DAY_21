@@ -4,5 +4,6 @@ class StaticPagesController < ApplicationController
   def contact
   end
   def index
+    @gossip = Gossip.all
   end
 end
