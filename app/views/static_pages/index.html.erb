@@ -1,7 +1,12 @@
 <h1>Bienvenue sur la page des Potins !</h1>
-<% @gossip.each do |i| %>
-<ul>
-  <li>Titre : <%= i.title %></li>
-  <li>Auteur : <%= i.user.first_name %></li>
-</ul>
-<% end %>
+  <div class="card-columns">
+  <% @gossip.each do |i| %>
+    <div class="card" style="width: 18rem;">
+      <div class="card-header"><h5 class="card-title"><%= i.title %></h5></div>
+      <div class="card-body">
+        <h6 class="card-subtitle mb-2 text-muted"><%= i.user.first_name %></h6>
+        <%= link_to "Go Potin", gossips_path(i.user.id),:class => "btn-info btn p-1"%>
+      </div>
+    </div>
+  <% end %>
+</div>

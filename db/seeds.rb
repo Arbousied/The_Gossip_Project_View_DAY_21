@@ -23,8 +23,8 @@ end
 	User.create!(first_name: Faker::Name.first_name, last_name: Faker::Name.last_name, description: Faker::TvShows::RickAndMorty.quote, email: Faker::Internet.email, age: rand(10..74), city_id: City.all.sample.id)
 end
 
-20.times do |gossip|
-	Gossip.create!(title: Faker::Games::Overwatch.location, content: Faker::Games::Overwatch.quote, user_id: User.all.sample.id)
+24.times do |gossip|
+	Gossip.create!(title: Faker::Games::Overwatch.location, content: Faker::ChuckNorris.fact, user_id: User.all.sample.id)
 end
 
 10.times do |tag|
