@@ -13,12 +13,12 @@ Une app **Ruby On Rails** : le Gossip Project, qui répertorie les potins des ut
 7. `$ rails server`
 
 ## 🗺 les pages à afficher 
-1. La page team : http://localhost:3000/team
-2. La page contact : http://localhost:3000/contact
-3. La page welcome avec ton prénom : http://localhost:3000/welcome/tonprenom
-4. La page d'accueil avec la liste des potins : http://localhost:3000/home
-5. Une page de potin : http://localhost:3000/gossips/1
-6. Une page de profil d'auteur : http://localhost:3000/user/1
+1. La page team : <http://localhost:3000/team>
+2. La page contact : <http://localhost:3000/contact>
+3. La page welcome avec ton prénom : <http://localhost:3000/welcome/tonprenom>
+4. La page d'accueil avec la liste des potins : <http://localhost:3000/home>
+5. Une page de potin : <http://localhost:3000/gossips/1>
+6. Une page de profil d'auteur : <http://localhost:3000/user/1>
 
 
 
